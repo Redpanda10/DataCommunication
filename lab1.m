@@ -1,0 +1,10 @@
+t=0:0.1:2*pi;
+y=sin(2*t);
+stem(t,y,'y');
+hold on;
+y=cos(2*t);
+stem(t,y,'r');
+xlabel('time');
+ylabel('amplitude');
+legend('sine wave','cosine wave');
+title('continuous sine and cosine signal');
